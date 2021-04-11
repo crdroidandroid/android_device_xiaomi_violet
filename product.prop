@@ -54,6 +54,9 @@ debug.hwui.skia_atrace_enabled=false
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
+# Display
+ro.sf.lcd_density=420
+
 # Graphics
 debug.hwui.renderer=skiagl
 debug.sf.disable_client_composition_cache=1
