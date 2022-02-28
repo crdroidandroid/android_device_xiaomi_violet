@@ -2337,6 +2337,162 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
 
+    <carrier_config mcc="302" mnc="610">
+        <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <int name="ims_conference_size_limit_int" value="5" />
+    </carrier_config>
+
+    <carrier_config mcc="302" mnc="370">
+        <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <int name="ims_conference_size_limit_int" value="5" />
+    </carrier_config>
+
+    <carrier_config mcc="302" mnc="690">
+        <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <int name="ims_conference_size_limit_int" value="5" />
+    </carrier_config>
+
+    <carrier_config mcc="302" mnc="880">
+        <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <int name="ims_conference_size_limit_int" value="5" />
+    </carrier_config>
+
+    <carrier_config mcc="302" mnc="630">
+        <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <int name="ims_conference_size_limit_int" value="5" />
+    </carrier_config>
+
+    <carrier_config mcc="302" mnc="640">
+        <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <int name="ims_conference_size_limit_int" value="5" />
+    </carrier_config>
+
+    <carrier_config mcc="308" mnc="01">
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="340" mnc="01">
+        <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="602" mnc="01">
+        <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="647" mnc="00">
+        <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="612" mnc="03">
+        <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="624" mnc="02">
+        <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="652" mnc="02">
+        <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="310" mnc="026">
+        <boolean name="force_home_network_bool" value="true" />
+    </carrier_config>
+
+   <carrier_config mcc="310" mnc="26">
+        <boolean name="force_home_network_bool" value="true" />
+    </carrier_config>
+
+   <carrier_config mcc="220" mnc="04">
+        <boolean name="force_home_network_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="255" mnc="02">
+        <boolean name="force_home_network_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="470" mnc="01">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="470" mnc="02">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="470" mnc="03">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="470" mnc="04">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="470" mnc="05">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="470" mnc="06">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="470" mnc="07">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="470" mnc="08">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="true" />
+    </carrier_config>
+
     <carrier_config>
         <string-array name="ratchet_rat_families" num="3">
         <item value="1,2" />
