@@ -112,6 +112,7 @@ ro.crypto.volume.options=::v2
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # Dirac algo tsx 9/12
 persist.dirac.acs.controller=qem
