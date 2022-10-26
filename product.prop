@@ -59,6 +59,7 @@ ro.sf.lcd_density=420
 
 # Graphics
 debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_transaction_tracing=false
