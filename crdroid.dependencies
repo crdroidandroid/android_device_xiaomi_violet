@@ -5,7 +5,8 @@
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_violet",
-    "target_path": "kernel/xiaomi/violet"
+    "target_path": "kernel/xiaomi/violet",
+    "branch":"13.0-azure""
   },
   {
     "repository": "crdroidandroid/android_vendor_xiaomi-firmware",
