@@ -56,7 +56,6 @@ debug.cpurend.vsync=false
 
 # Graphics
 debug.cpurend.vsync=false
-debug.hwui.renderer=skiavk
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_client_composition_cache=1
