@@ -9,8 +9,15 @@
     "branch":"thirteen"
   },
   {
-    "repository": "crdroidandroid/android_vendor_xiaomi-firmware",
-    "target_path": "vendor/xiaomi-firmware",
+    "repository": "crdroidandroid/android-vendor-xiaomi-firmware-violet",
+    "target_path": "vendor/xiaomi-firmware/violet",
+    "branch":"thirteen",
+    "remote":"crdroid-gitlab"
+  },
+  {
+    "repository": "crdroidandroid/prebuilts_clang_host_linux-x86_clang-r487747",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r487747",
+    "branch":"master",
     "remote":"crdroid-gitlab"
   }
 ]
