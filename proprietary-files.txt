@@ -78,7 +78,7 @@ vendor/lib64/libaudcal.so|280055744e972e5e3c1ee775ed76ec95d97b7bd2
 vendor/lib64/libaudioparsers.so|400a4157bcd70ea33679904a7d130988e436d2f6
 vendor/lib64/libqtigef.so|0c438718d1846f56898ba2b1787cc9748744d029
 
-# Audio FX modules (system) - from LA.QSSI.13.0.r1-09400.01-qssi.0
+# Audio FX modules (system) - from LA.QSSI.13.0.r1-09700-qssi.0
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/framework/audiosphere.jar|3c42dff6da0571acd9ea466983c7f6354d588bb3
 
@@ -336,7 +336,7 @@ vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
 vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 
-# CNE (system) - from LA.QSSI.13.0.r1-09400.01-qssi.0
+# CNE (system) - from LA.QSSI.13.0.r1-09700-qssi.0
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|4f483c8474fde0265baa9eec278b99a9a57c6d7d
 system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar|d4f29d4a7db3e837261c16099ada0d64a8cf1986
 system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar|1166b87531cb34b6f1810a64c5303e6d0621542f
@@ -552,7 +552,7 @@ vendor/firmware/goodixfp.b02
 vendor/firmware/goodixfp.b03
 vendor/firmware/goodixfp.b04
 
-# FM (system) - from LA.QSSI.13.0.r1-09400.01-qssi.0
+# FM (system) - from LA.QSSI.13.0.r1-09700-qssi.0
 system_ext/lib64/fm_helium.so|623a78dfe8f73808158bc88116cd3204588aa126
 system_ext/lib64/libfm-hci.so|9f7f908e749dc9e41effaa3546eb0cac483ecbeb
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so|0bfc9d9097698b7cc8cb74721cb971a80f862720
@@ -824,16 +824,16 @@ vendor/lib64/libqmi_encdec.so|a18bb21e5b9b53e3dc8dc45f6e7e65e32a467607
 vendor/lib64/libqmi_legacy.so|f324c6701ecf78ff50975c0bc7f99aea09cb3539
 vendor/lib64/libqmiservices.so|d3f7a54cc94a60286dec89caa2dd843da79b51c4
 
-# Radio (system) - from LA.QSSI.13.0.r1-09400.01-qssi.0
+# Radio (system) - from LA.QSSI.13.0.r1-09700-qssi.0
 system_ext/app/DeviceInfo/DeviceInfo.apk|fff29a2277f9a5283922007367570d54dd6cd376
-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|f401dbb160887a0cea1aed560b9ff9b1d804098d
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|38701f94dca753199cbff47b338a71851a3280b
 system_ext/app/embms/embms.apk|8c55c180078e4b54abc922cc6762299d6cb6a918
 system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|a7e114ea1e6909685ce49717a2b5b66d8275d419
 system_ext/framework/embmslibrary.jar|6fd7f060af0bb76dba317b58cef9b51e0a37a6cc
 system_ext/framework/qcrilhook.jar|8d44048c04f4d38a6bf6a279e3bceface10c0dde
-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|d52f9c2ea671c02b659df116668cd07095509dd2
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|e3cf3ab60bf632270eccc4e99ead89254d3d84ab
 
 # Radio (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/adpl|7a0f18e1762bb972e87c4a21a787f56f15ebeb1b
@@ -924,8 +924,8 @@ vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql|4701219a79190
 # Telephony - from smali edit: https://gist.github.com/PIPIPIG233666/72806386c8b93729ce7f2b2c263d8889
 system_ext/framework/qti-telephony-common.jar|7a3f1fa141520e83e58d4afc6eebfc4f38dc9f27
 
-# Radio - IMS (system) - from LA.QSSI.13.0.r1-09400.01-qssi.0
-system_ext/app/ImsRcsService/ImsRcsService.apk|ed315e5e845910a0e16d5d2adf22a7378e19842b
+# Radio - IMS (system) - from LA.QSSI.13.0.r1-09700-qssi.0
+system_ext/app/ImsRcsService/ImsRcsService.apk|1808781bcabdec3db97fd19cfe0365a1040178c1
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bfceff47fb0b55a418bed71de6050d876a776ac7
@@ -974,7 +974,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|662bccc5d4b40a79a47928c8957bfdf
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|bdb530a365806b33effe0fea03f181decb20c2ae
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|ace5e02b6cd79b43a07d84e2d18d6818821a3c48
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|e64aa8a21a8db69d2e2ea14929bb20ced99c119d
-system_ext/priv-app/ims/ims.apk|711e542958c1d05d18ec84984c495a3d607ec9bb
+system_ext/priv-app/ims/ims.apk|5690534155879d101cbe323456b01f29cb97b8b4
 
 # Radio (vendor) - IMS - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/ims_rtp_daemon|7cd0297294c08becd429698defc6c4a603a3e0e3
