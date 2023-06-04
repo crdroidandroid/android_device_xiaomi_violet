@@ -104,6 +104,10 @@ ro.soc.model=SM6150
 ro.crypto.allow_encrypt_override=true
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Crypto
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
