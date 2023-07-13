@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2018-2020 The LineageOS Project
-# Copyright (C) 2020 The PixelExperience Project
+# Copyright (C) 2018-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -235,9 +234,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/gps/etc/,$(TARGET_COPY_OUT_VENDOR)/etc)
-
-# Google Recorder
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Health
 PRODUCT_PACKAGES += \
@@ -499,6 +495,3 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libqdMetaData.vendor
-
-# Wallpapers
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
