@@ -1,6 +1,9 @@
 # App
 ro.launcher.blur.appLaunch=0
 
+# Blur
+ro.surface_flinger.supports_background_blur=0
+
 # Audio
 ro.config.media_vol_default=10
 
