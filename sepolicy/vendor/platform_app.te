@@ -11,3 +11,8 @@ allow platform_app {
 }:hwservice_manager find;
 
 allow platform_app app_data_file:file execute;
+
+# System Info
+allow platform_app vendor_sysfs_battery_supply:dir search;
+allow platform_app vendor_sysfs_battery_supply:file r_file_perms;
+allow platform_app vendor_sysfs_kgsl:file r_file_perms;
