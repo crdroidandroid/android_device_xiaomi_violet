@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_violet",
+    "target_path": "vendor/xiaomi/violet",
+  },
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_violet",
+    "target_path": "kernel/xiaomi/violet",
+  },
+  {
+    "repository": "crdroidandroid/android-vendor-xiaomi-firmware-violet",
+    "target_path": "vendor/xiaomi-firmware/violet",
+    "remote":"crdroid-gitlab"
+  },
+  {
+    "repository": "crdroidandroid/android_vendor_miuicamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch":"14.0-violet",
+    "remote":"crdroid-gitlab"
+  },
+  {
+    "repository": "crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r510928",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r510928",
+    "remote":"crdroid-gitlab"
+  }
+]
