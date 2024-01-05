@@ -1,11 +1,11 @@
 [
   {
     "repository": "crdroidandroid/proprietary_vendor_xiaomi_violet",
-    "target_path": "vendor/xiaomi/violet",
+    "target_path": "vendor/xiaomi/violet"
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_violet",
-    "target_path": "kernel/xiaomi/violet",
+    "target_path": "kernel/xiaomi/violet"
   },
   {
     "repository": "crdroidandroid/android-vendor-xiaomi-firmware-violet",
