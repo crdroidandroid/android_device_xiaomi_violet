@@ -403,8 +403,8 @@ PRODUCT_COPY_FILES += \
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
-    Settings \
-    SystemUI
+    SettingsGoogle \
+    SystemUIGoogle
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
