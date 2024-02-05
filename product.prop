@@ -44,9 +44,6 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.andr
 # CNE
 persist.vendor.cne.feature=1
 
-# FUSE
-persist.sys.fuse.passthrough.enable=true
-
 # Data
 persist.data.df.dev_name=rmnet_usb0
 persist.vendor.data.profile_update=true
